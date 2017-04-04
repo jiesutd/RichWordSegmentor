@@ -6,7 +6,7 @@ Demo system: (coming...)
 ======
 * Download the [LibN3L](https://github.com/SUTDNLP/LibN3L) library and configure your system. Please refer to [Here](https://github.com/SUTDNLP/LibN3L)
 * Open [CMakeLists.txt](CMakeLists.txt) and change " ../LibN3L/" into the directory of your [LibN3L](https://github.com/SUTDNLP/LibN3L) package.
-* Run the [demo-entity.sh](demo-entity.sh) file: `sh demo-entity.sh`
+* Run the [demo.sh](demo.sh) file: `sh demo.sh`
 
 The demo system includes Chinese word segmentation sample data ["ctb.sample.train"](example/ctb.sample.train), ["ctb.sample.dev"](example/ctb.sample.dev) and ["ctb.sample.test"](example/ctb.sample.test), Chinese word embeding sample file ["ctb.emb"](example/ctb.emb), Chinese char and char bigram pretrained embedding sample file ["char.emb"](example/char.emb) ["bichar.emb"](example/bichar.emb)and parameter setting file(["demo.option"](example/demo.option). All of these files are gathered at folder [RichWordSegmentor/example](example).
 
