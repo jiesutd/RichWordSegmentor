@@ -16,10 +16,10 @@ Run: (to be filled)
 `cmake .`  
 `make`
 
-Training model:
+Training model:  
 `./STDSeg -l -train ${train.data} -dev ${dev.data} -test ${dev.data} -option ${option.file} -model ${save_model_to_file} -word ${pretrain_word_emb, optional} -char ${pretrain_char_emb, optional} -bichar ${pretrain_bichar_emb, optional} -numlayer ${pretrain_parameters, optional}`
 
-Load model:
+Load model:  
 `./STDSeg -test ${test.data} -model ${load_model_file} -output ${output_file}`
 
 Input:
