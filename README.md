@@ -24,19 +24,19 @@ Load model:
 
 Input:
 ======
-1. For evaluate model performance:
+1. For evaluate model performance:  
 
-...Word seperated by a space, each sentence take one line. For example:
+   Word seperated by a space, each sentence take one line. For example:
 
-...就 做 了 一点 微小 的 工作 ， 谢谢 大家 。  
+   就 做 了 一点 微小 的 工作 ， 谢谢 大家 。  
 
-...一个人 的 命运 啊 ， 当然 要 靠 自我 奋斗 ， 但是 也要 考虑 到 历史 的 行程 。
+   一个人 的 命运 啊 ， 当然 要 靠 自我 奋斗 ， 但是 也要 考虑 到 历史 的 行程 。
 
-2. For raw text decoding, one sentence each line (without space).
+2. For raw text decoding, one sentence each line (without space).   
 
-...就做了一点微小的工作，谢谢大家。  
+   就做了一点微小的工作，谢谢大家。  
 
-...一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的行程。
+   一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的行程。
 
 Output:
 =======
@@ -49,12 +49,12 @@ Trained model or rich pretraining:
 ==========
 We shared our trained model at [BaiduPan](https://pan.baidu.com/s/1pLO6T9D) for visiters reproducing our results.  
 1. File `ctb.bilstm.joint4.model`: 
-...the trained model on CTB6.0 corpus using multitask pretraining. You can simply load this file to decode raw text without training. Run:  
+   the trained model on CTB6.0 corpus using multitask pretraining. You can simply load this file to decode raw text without training. Run:  
 
-...`./STDSeg -test ${input_raw_text} -model ctb.bilstm.joint4.model -output ${output_segmentated_text}`
+   `./STDSeg -test ${input_raw_text} -model ctb.bilstm.joint4.model -output ${output_segmentated_text}`
 
 2. File `joint4.all.b10c1.2h.iter17.mchar, .mbichar, .pmodel` are pretrained character, character bigram embeddings and representing parameters.
-...If you want to traing your own model, you can load these three files following above instruction.   
+   If you want to traing your own model, you can load these three files following above instruction.   
 
 3. If you want to do the rich pretraining experiments (for generating three files in last item), please refer to [TrainEmbMultiTask](https://github.com/jiesutd/TrainEmbMultiTask).  
 
