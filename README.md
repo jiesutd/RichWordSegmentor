@@ -25,22 +25,25 @@ Load model:
 Input:
 ======
 1. For evaluate model performance:
+
 ...Word seperated by a space, each sentence take one line. For example:
 
 ...就 做 了 一点 微小 的 工作 ， 谢谢 大家 。  
+
 ...一个人 的 命运 啊 ， 当然 要 靠 自我 奋斗 ， 但是 也要 考虑 到 历史 的 行程 。
 
 2. For raw text decoding, one sentence each line (without space).
 
 ...就做了一点微小的工作，谢谢大家。  
+
 ...一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的行程。
 
 Output:
 =======
 The same format with training data. Word seperated by a space, each sentence take one line.
 
-...就 做 了 一点 微小 的 工作 ， 谢谢 大家 。  
-...一个人 的 命运 啊 ， 当然 要 靠 自我 奋斗 ， 但是 也要 考虑 到 历史 的 行程 。
+就 做 了 一点 微小 的 工作 ， 谢谢 大家 。  
+一个人 的 命运 啊 ， 当然 要 靠 自我 奋斗 ， 但是 也要 考虑 到 历史 的 行程 。
 
 Trained model or rich pretraining:
 ==========
