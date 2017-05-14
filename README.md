@@ -1,6 +1,6 @@
 RichWordSegmentor
 ======
-RichWordSegmentor is a package for Word Segmentation using transition based neural networks under LibN3L package. It is the state-of-the-art neural word segmentator which supports rich pretraining from external data. With the help of rich pretraining, our model achieves the best result on 5 out of 6 Chinese word segmentation benchmarks. Performance details and model structure can be seen in our paper (insert paper link). 
+RichWordSegmentor is a package for Word Segmentation using transition based neural networks under LibN3L package. It is the state-of-the-art neural word segmentator which supports rich pretraining from external data. With the help of rich pretraining, our model achieves the best result on 5 out of 6 Chinese word segmentation benchmarks. Performance details and model structure can be seen in our ACL paper: [Neural word segmentation with rich pretraining](https://arxiv.org/abs/1704.08960). 
 
 Demo system: (coming...)
 ======
@@ -82,9 +82,14 @@ Note:
 
 
 
-Cite: (coming)
+Cite: 
 ========
-
+@article{yang2017neural,  
+  title={Neural Word Segmentation with Rich Pretraining},  
+  author={Yang, Jie and Zhang, Yue and Dong, Fei},  
+  journal={arXiv preprint arXiv:1704.08960},  
+  year={2017}  
+}  
 
 Update
 ====
