@@ -1,5 +1,5 @@
 sh cleanall.sh
 cmake .
 make STDSeg
-./STDSeg -l -train ../data/train.debug -dev ../data/dev.debug -test ../data/test.debug -option ../data/option.STD -model ../data/debug.model -word ../data/ctb.50d.vec
-./STDSeg -test ../data/test.debug -model ../data/debug.model -output ../data/test.debug.out
+./STDSeg -l -train ../example/train.debug -dev ../example/dev.debug -test ../example/test.debug -option ../example/option.STD -model ../example/debug.model -word ../example/ctb.50d.word.debug
+./STDSeg -test ../example/test.debug -model ../example/debug.model -output ../example/test.debug.out

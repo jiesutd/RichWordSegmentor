@@ -8,8 +8,7 @@ Demo system: (coming...)
 * Open [CMakeLists.txt](CMakeLists.txt) and change " ../LibN3L/" into the directory of your [LibN3L](https://github.com/SUTDNLP/LibN3L) package.
 * Run the [demo.sh](demo.sh) file: `sh demo.sh`
 
-The demo system includes Chinese word segmentation sample data ["ctb.sample.train"](example/ctb.sample.train), ["ctb.sample.dev"](example/ctb.sample.dev) and ["ctb.sample.test"](example/ctb.sample.test), Chinese word embeding sample file ["ctb.emb"](example/ctb.emb), Chinese char and char bigram pretrained embedding sample file ["char.emb"](example/char.emb) ["bichar.emb"](example/bichar.emb)and parameter setting file(["demo.option"](example/demo.option). All of these files are gathered at folder [RichWordSegmentor/example](example).
-
+The demo system includes Chinese word segmentation sample data ["train.debug"](example/train.debug), ["dev.debug"](example/dev.debug) and ["test.debug"](example/test.debug), Chinese word embeding sample file ["ctb.50d.word.debug"](example/ctb.50d.word.debug), Chinese char and char bigram pretrained embedding sample file ["char.emb"](example/char.emb) ["bichar.emb"](example/bichar.emb)and parameter setting file["option.STD"](example/option.STD). All of these files are gathered at folder [RichWordSegmentor/example](example).
 
 Run: (to be filled)
 =======

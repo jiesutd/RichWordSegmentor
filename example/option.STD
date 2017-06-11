@@ -1,0 +1,12 @@
+dropProb = 0.2
+batchSize = 1
+outBest = .STD
+maxIter = 1
+wordCutOff = 1
+finalHiddenSize = 200
+clip = 10
+wordEmbSize = 0
+charEmbFineTune = true
+bicharEmbFineTune = true
+charRNNHiddenSize = 75
+#regParameter = 0.01
