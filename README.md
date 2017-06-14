@@ -6,7 +6,7 @@ Demo system: (coming...)
 ======
 * Download the [LibN3L](https://github.com/SUTDNLP/LibN3L) library and configure your system. Please refer to [Here](https://github.com/SUTDNLP/LibN3L)
 * Open [CMakeLists.txt](CMakeLists.txt) and change " ../LibN3L/" into the directory of your [LibN3L](https://github.com/SUTDNLP/LibN3L) package.
-* Run the [demo.sh](demo.sh) file: `sh demo.sh`
+* Run the [demo.sh](demo.sh) file: `sh demo.sh` (didn't load pretrained char/bichar embeddings in this demo script.)
 
 The demo system includes Chinese word segmentation sample data ["train.debug"](example/train.debug), ["dev.debug"](example/dev.debug) and ["test.debug"](example/test.debug), Chinese word embeding sample file ["ctb.50d.word.debug"](example/ctb.50d.word.debug), Chinese char and char bigram pretrained embedding sample file ["char.emb"](example/char.emb) ["bichar.emb"](example/bichar.emb)and parameter setting file["option.STD"](example/option.STD). All of these files are gathered at folder [RichWordSegmentor/example](example).
 
@@ -51,7 +51,7 @@ We shared our trained model at [BaiduPan](https://pan.baidu.com/s/1pLO6T9D) for 
    `./STDSeg -test ${input_raw_text} -model ctb.bilstm.joint4.model -output ${output_segmentated_text}`
 
 2. File `joint4.all.b10c1.2h.iter17.mchar, .mbichar, .pmodel` are pretrained character, character bigram embeddings and representing parameters.
-   If you want to traing your own model, you can load these three files following above instruction.   
+   If you want to train your own model, you can load these three files following above instruction.   
 
 3. If you want to do the rich pretraining experiments (for generating three files in last item), please refer to [TrainEmbMultiTask](https://github.com/jiesutd/TrainEmbMultiTask).  
 
@@ -83,12 +83,12 @@ Note:
 
 Cite: 
 ========
-@article{yang2017neural,  
-  title={Neural Word Segmentation with Rich Pretraining},  
-  author={Yang, Jie and Zhang, Yue and Dong, Fei},  
-  journal={arXiv preprint arXiv:1704.08960},  
-  year={2017}  
-}  
+    @article{yang2017neural,  
+     title={Neural Word Segmentation with Rich Pretraining},  
+     author={Yang, Jie and Zhang, Yue and Dong, Fei},  
+     journal={arXiv preprint arXiv:1704.08960},  
+     year={2017}  
+    }  
 
 Update
 ====
