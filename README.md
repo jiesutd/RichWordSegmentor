@@ -42,9 +42,9 @@ The same format with training data. Word seperated by a space, each sentence tak
 就 做 了 一点 微小 的 工作 ， 谢谢 大家 。  
 一个人 的 命运 啊 ， 当然 要 靠 自我 奋斗 ， 但是 也要 考虑 到 历史 的 行程 。
 
-Trained model or rich pretraining:
+Trained model/embeddings/parameters of rich pretraining and baseline:
 ==========
-We shared our trained model at [BaiduPan](https://pan.baidu.com/s/1pLO6T9D) for visiters reproducing our results.  
+We shared our trained model at [BaiduPan](https://pan.baidu.com/s/1pLO6T9D)(https://pan.baidu.com/s/1pLO6T9D) for visiters reproducing our results.  
 1. File `ctb.bilstm.joint4.model`: 
    the trained model on CTB6.0 corpus using multitask pretraining. You can simply load this file to decode raw text without training. Run:  
 
@@ -53,7 +53,9 @@ We shared our trained model at [BaiduPan](https://pan.baidu.com/s/1pLO6T9D) for 
 2. File `joint4.all.b10c1.2h.iter17.mchar, .mbichar, .pmodel` are pretrained character, character bigram embeddings and representing parameters.
    If you want to train your own model, you can load these three files following above instruction.   
 
-3. If you want to do the rich pretraining experiments (for generating three files in last item), please refer to [TrainEmbMultiTask](https://github.com/jiesutd/TrainEmbMultiTask).  
+3. File: `gigaword_chn.all.a2b.uni.ite50.vec` and `gigaword_chn.all.a2b.bi.ite50.vec` are the char/bichar embeddings of our baseline, respectively.
+
+4. If you want to do the rich pretraining experiments (for generating three files in last item), please refer to [TrainEmbMultiTask](https://github.com/jiesutd/TrainEmbMultiTask).  
 
 
 Monitoring information
