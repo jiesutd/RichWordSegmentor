@@ -53,7 +53,7 @@ We shared our trained model at [BaiduPan](https://pan.baidu.com/s/1pLO6T9D)(http
 2. File `joint4.all.b10c1.2h.iter17.mchar, .mbichar, .pmodel` are pretrained character, character bigram embeddings and representing parameters.
    If you want to train your own model, you can load these three files following above instruction.   
 
-3. File: `gigaword_chn.all.a2b.uni.ite50.vec` and `gigaword_chn.all.a2b.bi.ite50.vec` are the char/bichar embeddings of our baseline, respectively.
+3. File: `gigaword_chn.all.a2b.uni.ite50.vec`, `gigaword_chn.all.a2b.bi.ite50.vec` and `ctb.50d.vec` are the char, bichar and word embeddings of our baseline, respectively.
 
 4. If you want to do the rich pretraining experiments (for generating three files in last item), please refer to [TrainEmbMultiTask](https://github.com/jiesutd/TrainEmbMultiTask).  
 
