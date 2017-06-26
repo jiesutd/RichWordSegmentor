@@ -88,7 +88,7 @@ Cite:
     @article{yang2017neural,  
      title={Neural Word Segmentation with Rich Pretraining},  
      author={Yang, Jie and Zhang, Yue and Dong, Fei},  
-     journal={arXiv preprint arXiv:1704.08960},  
+     booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
      year={2017}  
     }  
 
