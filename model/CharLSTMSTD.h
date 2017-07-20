@@ -1,8 +1,8 @@
 /*
  * LSTMBeamSearcher.h
- *
- *  Created on: Jan 25, 2016
- *      Author: mszhang
+ *  CharLSTMSTD, use both allword and word, while word embeding size is 0 in default
+ *  Created on: Jan 25, 2017
+ *      Author: Jie Yang
  */
 
 #ifndef SRC_TLSTMBeamSearcher_H_

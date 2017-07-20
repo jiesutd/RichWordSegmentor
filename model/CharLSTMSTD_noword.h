@@ -1,8 +1,8 @@
 /*
  * LSTMBeamSearcher.h
- *
- *  Created on: Jan 25, 2016
- *      Author: mszhang
+ *  CharLSTMSTD_noword, only use allword but not word
+ *  Created on: Jan 25, 2017
+ *      Author: Jie Yang
  */
 
 #ifndef SRC_TLSTMBeamSearcher_H_
