@@ -1,8 +1,8 @@
 RichWordSegmentor
 ======
-RichWordSegmentor is a package for Word Segmentation using transition based neural networks under LibN3L package. It is the state-of-the-art neural word segmentator which supports rich pretraining from external data. With the help of rich pretraining, our model achieves the best result on 5 out of 6 Chinese word segmentation benchmarks. Performance details and model structure can be seen in our ACL paper: [Neural word segmentation with rich pretraining](https://arxiv.org/abs/1704.08960). 
+RichWordSegmentor is a package for Word Segmentation using transition based neural networks under LibN3L package. It is the state-of-the-art neural word segmentator which supports rich pretraining from external data. With the help of rich pretraining, our model achieves the best result on 5 out of 6 Chinese word segmentation benchmarks. Performance details and model structure can be seen in our ACL paper: [Neural word segmentation with rich pretraining](http://www.aclweb.org/anthology/P/P17/P17-1078.pdf). 
 
-Demo system: (coming...)
+Demo system:
 ======
 * Download the [LibN3L](https://github.com/SUTDNLP/LibN3L) library and configure your system. Please refer to [Here](https://github.com/SUTDNLP/LibN3L)
 * Open [CMakeLists.txt](CMakeLists.txt) and change " ../LibN3L/" into the directory of your [LibN3L](https://github.com/SUTDNLP/LibN3L) package.
@@ -10,7 +10,7 @@ Demo system: (coming...)
 
 The demo system includes Chinese word segmentation sample data ["train.debug"](example/train.debug), ["dev.debug"](example/dev.debug) and ["test.debug"](example/test.debug), Chinese word embeding sample file ["ctb.50d.word.debug"](example/ctb.50d.word.debug), Chinese char and char bigram pretrained embedding sample file ["char.emb"](example/char.emb) ["bichar.emb"](example/bichar.emb)and parameter setting file["option.STD"](example/option.STD). All of these files are gathered at folder [RichWordSegmentor/example](example).
 
-Run: (to be filled)
+Run: 
 =======
 `cmake .`  
 `make`
