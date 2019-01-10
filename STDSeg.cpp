@@ -38,9 +38,9 @@ int Segmentor::createAlphabet(const vector<Instance>& vecInsts) {
 
   static Metric eval;
 #if USE_CUDA==1
-  static CStateItem<gpu> state[m_classifier.MAX_SENTENCE_SIZE];
+  static CStateItem<gpu> state[BeamSearcher<gpu>::MAX_SENTENCE_SIZE];
 #else
-  static CStateItem<cpu> state[m_classifier.MAX_SENTENCE_SIZE];
+  static CStateItem<cpu> state[BeamSearcher<cpu>::MAX_SENTENCE_SIZE];
 #endif
   static Feature feat;
   static vector<string> output;
@@ -272,9 +272,9 @@ void Segmentor::getGoldActions(const vector<Instance>& vecInsts, vector<vector<C
 
   static Metric eval;
 #if USE_CUDA==1
-  static CStateItem<gpu> state[m_classifier.MAX_SENTENCE_SIZE];
+  static CStateItem<gpu> state[BeamSearcher<gpu>::MAX_SENTENCE_SIZE];
 #else
-  static CStateItem<cpu> state[m_classifier.MAX_SENTENCE_SIZE];
+  static CStateItem<cpu> state[BeamSearcher<cpu>::MAX_SENTENCE_SIZE];
 #endif
   static vector<string> output;
   static CAction answer;
